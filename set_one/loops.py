@@ -8,4 +8,4 @@ def square(n):
     return num
 
 
-print(*square(5))
+print(*sqare(5))
