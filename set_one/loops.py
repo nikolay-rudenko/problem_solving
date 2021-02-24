@@ -9,4 +9,3 @@ def square(n):
 
 
 print(*square(5))
-
