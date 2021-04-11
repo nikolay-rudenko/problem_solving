@@ -105,4 +105,5 @@ MyClass = type('MyClass', (), {})
 It's because the function type is in fact a metaclass. 
 type is the metaclass Python uses 
 to create all classes behind the scenes.
+
 '''
