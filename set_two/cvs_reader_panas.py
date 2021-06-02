@@ -13,7 +13,7 @@ columns = [
 ]
 
 # Instantiate sqlachemy.create_engine object
-engine = create_engine('postgresql://nikol:moonbeam@localhost:5432/books')
+engine = create_engine('postgresql://nikol:moonbeam@localhost:5432/test')
 
 # Create an iterable that will read "chunksize=1000" rows
 # at a time from the CSV file
