@@ -1,4 +1,4 @@
-# Write data from CVS file to Postgress DB using Panda and SQLAlchemy
+# Write data from CVS file to Postgress DB using Panda and SQLAlchemy...
 
 import pandas as pd
 from sqlalchemy import create_engine
