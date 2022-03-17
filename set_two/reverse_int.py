@@ -1,9 +1,10 @@
 def descending_order(num):
-    bigest = []
-    str = str(num)
+    num_list = list(map(int, list(str(num))))
+    num_list.sort(reverse=True)
+
+    print(int(''.join(map(str, num_list))))
+    # something
 
 
-    return ''
 
-
-descending_order(4521)
+descending_order(455621)
